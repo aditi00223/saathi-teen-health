@@ -28,7 +28,7 @@ export default function Header({
                 <span className="text-xs font-semibold text-primary/70">(साथी)</span>
               </div>
               <span className="text-[11px] text-on-surface-variant leading-none">
-                your private health companion
+                ask freely. know your next step.
               </span>
             </div>
           </div>

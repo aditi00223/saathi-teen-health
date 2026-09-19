@@ -1,4 +1,4 @@
-﻿/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -7,14 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#630ed4',
-        'primary-container': '#7c3aed',
+        'primary': '#b0245f',
+        'primary-container': '#d6457f',
         'on-primary': '#ffffff',
-        'on-primary-container': '#ede0ff',
-        'primary-fixed': '#eaddff',
-        'primary-fixed-dim': '#d2bbff',
-        'on-primary-fixed': '#25005a',
-        'on-primary-fixed-variant': '#5a00c6',
+        'on-primary-container': '#ffe4ef',
+        'primary-fixed': '#ffd9e6',
+        'primary-fixed-dim': '#ffb1cd',
+        'on-primary-fixed': '#3e001d',
+        'on-primary-fixed-variant': '#8c0b47',
 
         'secondary': '#006a61',
         'secondary-container': '#86f2e4',
