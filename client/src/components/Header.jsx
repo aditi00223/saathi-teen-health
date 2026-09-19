@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 export default function Header({ 
   selectedLanguage, 
@@ -74,11 +74,11 @@ export default function Header({
         <div className="flex items-center justify-between text-xs pt-0.5">
           <div className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-secondary-container/60 text-secondary">
             <span className="material-symbols-outlined text-[13px] fill">lock</span>
-            <span className="text-[11px] font-medium tracking-tight">
+            <span className="text-[11px] font-medium tracking-tight whitespace-nowrap">
               Anonymous. No login. Nothing is stored.
             </span>
           </div>
-          <span className="text-[11px] text-on-surface-variant font-medium">
+          <span className="hidden sm:inline text-[11px] text-on-surface-variant font-medium">
             Safe & Confidential Space
           </span>
         </div>

@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import ActionPlanCard from './ActionPlanCard';
 import UrgentHelpCard from './UrgentHelpCard';
 import MythOrFactCard from './MythOrFactCard';
@@ -304,7 +304,7 @@ export default function ChatView({
       </div>
 
       {/* Sticky Bottom Input Bar */}
-      <div className="fixed bottom-16 left-0 right-0 z-30 px-4 pt-2 pb-1 bg-gradient-to-t from-surface via-surface/90 to-transparent pointer-events-none">
+      <div className="fixed bottom-24 left-0 right-0 z-30 px-4 pt-2 pb-1 bg-gradient-to-t from-surface via-surface/90 to-transparent pointer-events-none">
         <div className="max-w-xl mx-auto pointer-events-auto">
           <div className="bg-surface-container-lowest/95 backdrop-blur-md p-1.5 sm:p-2 rounded-full border border-outline-variant/50 shadow-lg flex items-center gap-2">
             {/* Voice Input Button (hidden if unsupported) */}
